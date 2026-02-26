@@ -10,5 +10,11 @@
     "scripts": {
         "build": "tsc -p tsconfig.json",
         "typecheck": "tsc -p tsconfig.json --noEmit"
+    },
+    "devDependencies": {
+        "@types/minimatch": "^6.0.0"
+    },
+    "dependencies": {
+        "minimatch": "^10.2.4"
     }
 }
