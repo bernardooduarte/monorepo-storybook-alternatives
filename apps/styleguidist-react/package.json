@@ -1,0 +1,24 @@
+{
+  "name": "@acme/styleguidist-react",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "styleguidist server",
+    "build": "styleguidist build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.19.0",
+  "dependencies": {
+    "@acme/ui-react": "workspace:*",
+    "@acme/ui-tokens": "workspace:*",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "react-styleguidist": "^13.1.4"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "monorepo-storybook-alternatives",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "build": "turbo run build",
+    "build:vercel": "pnpm build && node scripts/copy-static-builds.mjs"
+  },
+  "devDependencies": {
+    "tsc-alias": "^1.8.16",
+    "turbo": "^2.0.0",
+    "typescript": "^5.9.3",
+    "vue": "^3.5.29",
+    "dev:portal": "pnpm -C apps/portal dev",
+    "dev:ladle": "pnpm -C apps/ladle-react dev",
+    "dev:histoire": "pnpm -C apps/histoire-vue dev",
+    "dev:docs": "pnpm -C apps/docs-docusaurus start",
+    "build:vercel": "pnpm turbo run build --filter=!@acme/playroom-react && node scripts/copy-static-builds.mjs"
+  },
+  "packageManager": "pnpm@10.19.0",
+  "engines": {
+    "node": ">=20 <21"
+  }
+}

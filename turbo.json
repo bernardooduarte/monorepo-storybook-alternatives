@@ -1,0 +1,27 @@
+{
+    "tasks": {
+        "lint": {
+            "dependsOn": [
+                "^lint"
+            ]
+        },
+        "typecheck": {
+            "dependsOn": [
+                "^typecheck"
+            ]
+        },
+        "build": {
+            "dependsOn": [
+                "^build"
+            ],
+            "outputs": [
+                "dist/**",
+                "build/**",
+                "styleguide/**",
+                ".histoire/**",
+                ".next/**",
+                "out/**"
+            ]
+        }
+    }
+}

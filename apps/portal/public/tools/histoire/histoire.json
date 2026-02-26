@@ -1,0 +1,27 @@
+{
+  "stories": [
+    {
+      "id": "src-button-story-vue",
+      "title": "Button",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-button-story-vue-0",
+          "title": "Default"
+        }
+      ],
+      "relativePath": "src/Button.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Button"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    }
+  ],
+  "markdownFiles": []
+}

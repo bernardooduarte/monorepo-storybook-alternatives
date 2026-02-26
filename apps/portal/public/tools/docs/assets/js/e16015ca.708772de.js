@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkapps_docs_docusaurus=globalThis.webpackChunkapps_docs_docusaurus||[]).push([[878],{9635(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/hola","name":"hola","count":1,"permalink":"/blog/tags/hola"}')}}]);
