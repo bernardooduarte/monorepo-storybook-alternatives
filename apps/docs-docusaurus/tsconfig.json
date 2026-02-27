@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "module": "Node16",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "skipLibCheck": true
   }
 }
