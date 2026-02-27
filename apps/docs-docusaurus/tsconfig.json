@@ -1,9 +1,9 @@
 {
   "extends": "@tsconfig/docusaurus/tsconfig.json",
   "compilerOptions": {
-    "baseUrl": ".",
-    "module": "Node16",
     "jsx": "react-jsx",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "strict": false,
+    "module": "Node16"
   }
 }

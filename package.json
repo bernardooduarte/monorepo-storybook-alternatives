@@ -11,19 +11,20 @@
   "dependencies": {
     "tsc-alias": "^1.8.16",
     "turbo": "^2.0.0",
-    "typescript": "^5.9.3",
     "vue": "^3.5.29"
   },
   "devDependencies": {
     "@types/minimatch": "^6.0.0",
     "minimatch": "^10.2.4",
     "turbo": "^2.0.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.3.3"
   },
   "packageManager": "pnpm@10.19.0",
   "pnpm": {
     "overrides": {
-      "@types/node": "16.18.126"
+      "@types/node": "16.18.126",
+      "@types/react": "18.3.12",
+      "@types/react-dom": "18.3.1"
     }
   }
 }
