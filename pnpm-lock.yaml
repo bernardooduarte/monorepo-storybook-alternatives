@@ -38,7 +38,7 @@ importers:
         version: 3.9.2(@mdx-js/react@1.6.22(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
       '@docusaurus/preset-classic':
         specifier: 3.9.2
-        version: 3.9.2(@algolia/client-search@5.49.1)(@mdx-js/react@1.6.22(react@17.0.2))(@types/react@17.0.91)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.17.3)(typescript@4.9.5)
+        version: 3.9.2(@algolia/client-search@5.49.1)(@mdx-js/react@1.6.22(react@17.0.2))(@types/react@19.2.14)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.17.3)(typescript@4.9.5)
       '@mdx-js/react':
         specifier: ^1.6.21
         version: 1.6.22(react@17.0.2)
@@ -69,7 +69,7 @@ importers:
         version: 3.9.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@docusaurus/theme-classic':
         specifier: 3.9.2
-        version: 3.9.2(@types/react@17.0.91)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
+        version: 3.9.2(@types/react@19.2.14)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
       '@tsconfig/docusaurus':
         specifier: ^1.0.4
         version: 1.0.7
@@ -79,9 +79,6 @@ importers:
       '@types/node':
         specifier: 16.18.126
         version: 16.18.126
-      '@types/react':
-        specifier: ^17.0.14
-        version: 17.0.91
       '@types/react-helmet':
         specifier: ^6.1.2
         version: 6.1.11
@@ -11047,21 +11044,21 @@ snapshots:
 
   '@discoveryjs/json-ext@0.6.3': {}
 
-  '@docsearch/core@4.6.0(@types/react@17.0.91)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
+  '@docsearch/core@4.6.0(@types/react@19.2.14)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
     optionalDependencies:
-      '@types/react': 17.0.91
+      '@types/react': 19.2.14
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
 
   '@docsearch/css@4.6.0': {}
 
-  '@docsearch/react@4.6.0(@algolia/client-search@5.49.1)(@types/react@17.0.91)(algoliasearch@5.49.1)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.17.3)':
+  '@docsearch/react@4.6.0(@algolia/client-search@5.49.1)(@types/react@19.2.14)(algoliasearch@5.49.1)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.17.3)':
     dependencies:
       '@algolia/autocomplete-core': 1.19.2(@algolia/client-search@5.49.1)(algoliasearch@5.49.1)(search-insights@2.17.3)
-      '@docsearch/core': 4.6.0(@types/react@17.0.91)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      '@docsearch/core': 4.6.0(@types/react@19.2.14)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@docsearch/css': 4.6.0
     optionalDependencies:
-      '@types/react': 17.0.91
+      '@types/react': 19.2.14
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       search-insights: 2.17.3
@@ -11119,7 +11116,7 @@ snapshots:
       terser-webpack-plugin: 5.3.16(webpack@5.105.3)
       tslib: 2.8.1
       url-loader: 4.1.1(file-loader@6.2.0(webpack@5.105.3))(webpack@5.105.3)
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
       webpackbar: 6.0.1(webpack@5.105.3)
     transitivePeerDependencies:
       - '@parcel/css'
@@ -11179,7 +11176,7 @@ snapshots:
       tinypool: 1.1.1
       tslib: 2.8.1
       update-notifier: 6.0.2
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
       webpack-bundle-analyzer: 4.10.2
       webpack-dev-server: 5.2.3(tslib@2.8.1)(webpack@5.105.3)
       webpack-merge: 6.0.1
@@ -11200,7 +11197,7 @@ snapshots:
       - utf-8-validate
       - webpack-cli
 
-  '@docusaurus/core@3.9.2(@mdx-js/react@3.1.1(@types/react@17.0.91)(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)':
+  '@docusaurus/core@3.9.2(@mdx-js/react@3.1.1(@types/react@19.2.14)(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)':
     dependencies:
       '@docusaurus/babel': 3.9.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@docusaurus/bundler': 3.9.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
@@ -11209,7 +11206,7 @@ snapshots:
       '@docusaurus/utils': 3.9.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@docusaurus/utils-common': 3.9.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@docusaurus/utils-validation': 3.9.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
-      '@mdx-js/react': 3.1.1(@types/react@17.0.91)(react@17.0.2)
+      '@mdx-js/react': 3.1.1(@types/react@19.2.14)(react@17.0.2)
       boxen: 6.2.1
       chalk: 4.1.2
       chokidar: 3.6.0
@@ -11243,7 +11240,7 @@ snapshots:
       tinypool: 1.1.1
       tslib: 2.8.1
       update-notifier: 6.0.2
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
       webpack-bundle-analyzer: 4.10.2
       webpack-dev-server: 5.2.3(tslib@2.8.1)(webpack@5.105.3)
       webpack-merge: 6.0.1
@@ -11303,7 +11300,7 @@ snapshots:
       unist-util-visit: 5.1.0
       url-loader: 4.1.1(file-loader@6.2.0(webpack@5.105.3))(webpack@5.105.3)
       vfile: 6.0.3
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
@@ -11351,7 +11348,7 @@ snapshots:
       tslib: 2.8.1
       unist-util-visit: 5.1.0
       utility-types: 3.11.0
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
     transitivePeerDependencies:
       - '@docusaurus/faster'
       - '@mdx-js/react'
@@ -11370,9 +11367,9 @@ snapshots:
       - utf-8-validate
       - webpack-cli
 
-  '@docusaurus/plugin-content-blog@3.9.2(@docusaurus/plugin-content-docs@3.9.2(@mdx-js/react@1.6.22(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5))(@mdx-js/react@3.1.1(@types/react@17.0.91)(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)':
+  '@docusaurus/plugin-content-blog@3.9.2(@docusaurus/plugin-content-docs@3.9.2(@mdx-js/react@1.6.22(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5))(@mdx-js/react@3.1.1(@types/react@19.2.14)(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)':
     dependencies:
-      '@docusaurus/core': 3.9.2(@mdx-js/react@3.1.1(@types/react@17.0.91)(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
+      '@docusaurus/core': 3.9.2(@mdx-js/react@3.1.1(@types/react@19.2.14)(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
       '@docusaurus/logger': 3.9.2
       '@docusaurus/mdx-loader': 3.9.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@docusaurus/plugin-content-docs': 3.9.2(@mdx-js/react@1.6.22(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
@@ -11392,7 +11389,7 @@ snapshots:
       tslib: 2.8.1
       unist-util-visit: 5.1.0
       utility-types: 3.11.0
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
     transitivePeerDependencies:
       - '@docusaurus/faster'
       - '@mdx-js/react'
@@ -11432,7 +11429,7 @@ snapshots:
       schema-dts: 1.1.5
       tslib: 2.8.1
       utility-types: 3.11.0
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
     transitivePeerDependencies:
       - '@docusaurus/faster'
       - '@mdx-js/react'
@@ -11451,9 +11448,9 @@ snapshots:
       - utf-8-validate
       - webpack-cli
 
-  '@docusaurus/plugin-content-docs@3.9.2(@mdx-js/react@3.1.1(@types/react@17.0.91)(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)':
+  '@docusaurus/plugin-content-docs@3.9.2(@mdx-js/react@3.1.1(@types/react@19.2.14)(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)':
     dependencies:
-      '@docusaurus/core': 3.9.2(@mdx-js/react@3.1.1(@types/react@17.0.91)(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
+      '@docusaurus/core': 3.9.2(@mdx-js/react@3.1.1(@types/react@19.2.14)(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
       '@docusaurus/logger': 3.9.2
       '@docusaurus/mdx-loader': 3.9.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@docusaurus/module-type-aliases': 3.9.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
@@ -11472,7 +11469,7 @@ snapshots:
       schema-dts: 1.1.5
       tslib: 2.8.1
       utility-types: 3.11.0
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
     transitivePeerDependencies:
       - '@docusaurus/faster'
       - '@mdx-js/react'
@@ -11502,7 +11499,7 @@ snapshots:
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       tslib: 2.8.1
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
     transitivePeerDependencies:
       - '@docusaurus/faster'
       - '@mdx-js/react'
@@ -11521,9 +11518,9 @@ snapshots:
       - utf-8-validate
       - webpack-cli
 
-  '@docusaurus/plugin-content-pages@3.9.2(@mdx-js/react@3.1.1(@types/react@17.0.91)(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)':
+  '@docusaurus/plugin-content-pages@3.9.2(@mdx-js/react@3.1.1(@types/react@19.2.14)(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)':
     dependencies:
-      '@docusaurus/core': 3.9.2(@mdx-js/react@3.1.1(@types/react@17.0.91)(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
+      '@docusaurus/core': 3.9.2(@mdx-js/react@3.1.1(@types/react@19.2.14)(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
       '@docusaurus/mdx-loader': 3.9.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@docusaurus/types': 3.9.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@docusaurus/utils': 3.9.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
@@ -11532,7 +11529,7 @@ snapshots:
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       tslib: 2.8.1
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
     transitivePeerDependencies:
       - '@docusaurus/faster'
       - '@mdx-js/react'
@@ -11727,7 +11724,7 @@ snapshots:
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       tslib: 2.8.1
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
     transitivePeerDependencies:
       - '@docusaurus/faster'
       - '@mdx-js/react'
@@ -11746,7 +11743,7 @@ snapshots:
       - utf-8-validate
       - webpack-cli
 
-  '@docusaurus/preset-classic@3.9.2(@algolia/client-search@5.49.1)(@mdx-js/react@1.6.22(react@17.0.2))(@types/react@17.0.91)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.17.3)(typescript@4.9.5)':
+  '@docusaurus/preset-classic@3.9.2(@algolia/client-search@5.49.1)(@mdx-js/react@1.6.22(react@17.0.2))(@types/react@19.2.14)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.17.3)(typescript@4.9.5)':
     dependencies:
       '@docusaurus/core': 3.9.2(@mdx-js/react@1.6.22(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
       '@docusaurus/plugin-content-blog': 3.9.2(@docusaurus/plugin-content-docs@3.9.2(@mdx-js/react@1.6.22(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5))(@mdx-js/react@1.6.22(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
@@ -11759,9 +11756,9 @@ snapshots:
       '@docusaurus/plugin-google-tag-manager': 3.9.2(@mdx-js/react@1.6.22(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
       '@docusaurus/plugin-sitemap': 3.9.2(@mdx-js/react@1.6.22(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
       '@docusaurus/plugin-svgr': 3.9.2(@mdx-js/react@1.6.22(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
-      '@docusaurus/theme-classic': 3.9.2(@types/react@17.0.91)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
+      '@docusaurus/theme-classic': 3.9.2(@types/react@19.2.14)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
       '@docusaurus/theme-common': 3.9.2(@docusaurus/plugin-content-docs@3.9.2(@mdx-js/react@1.6.22(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
-      '@docusaurus/theme-search-algolia': 3.9.2(@algolia/client-search@5.49.1)(@mdx-js/react@1.6.22(react@17.0.2))(@types/react@17.0.91)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.17.3)(typescript@4.9.5)
+      '@docusaurus/theme-search-algolia': 3.9.2(@algolia/client-search@5.49.1)(@mdx-js/react@1.6.22(react@17.0.2))(@types/react@19.2.14)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.17.3)(typescript@4.9.5)
       '@docusaurus/types': 3.9.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
@@ -11788,25 +11785,25 @@ snapshots:
 
   '@docusaurus/react-loadable@6.0.0(react@17.0.2)':
     dependencies:
-      '@types/react': 17.0.91
+      '@types/react': 19.2.14
       react: 17.0.2
 
-  '@docusaurus/theme-classic@3.9.2(@types/react@17.0.91)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)':
+  '@docusaurus/theme-classic@3.9.2(@types/react@19.2.14)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)':
     dependencies:
-      '@docusaurus/core': 3.9.2(@mdx-js/react@3.1.1(@types/react@17.0.91)(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
+      '@docusaurus/core': 3.9.2(@mdx-js/react@3.1.1(@types/react@19.2.14)(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
       '@docusaurus/logger': 3.9.2
       '@docusaurus/mdx-loader': 3.9.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@docusaurus/module-type-aliases': 3.9.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
-      '@docusaurus/plugin-content-blog': 3.9.2(@docusaurus/plugin-content-docs@3.9.2(@mdx-js/react@1.6.22(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5))(@mdx-js/react@3.1.1(@types/react@17.0.91)(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
-      '@docusaurus/plugin-content-docs': 3.9.2(@mdx-js/react@3.1.1(@types/react@17.0.91)(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
-      '@docusaurus/plugin-content-pages': 3.9.2(@mdx-js/react@3.1.1(@types/react@17.0.91)(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
+      '@docusaurus/plugin-content-blog': 3.9.2(@docusaurus/plugin-content-docs@3.9.2(@mdx-js/react@1.6.22(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5))(@mdx-js/react@3.1.1(@types/react@19.2.14)(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
+      '@docusaurus/plugin-content-docs': 3.9.2(@mdx-js/react@3.1.1(@types/react@19.2.14)(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
+      '@docusaurus/plugin-content-pages': 3.9.2(@mdx-js/react@3.1.1(@types/react@19.2.14)(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
       '@docusaurus/theme-common': 3.9.2(@docusaurus/plugin-content-docs@3.9.2(@mdx-js/react@1.6.22(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@docusaurus/theme-translations': 3.9.2
       '@docusaurus/types': 3.9.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@docusaurus/utils': 3.9.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@docusaurus/utils-common': 3.9.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@docusaurus/utils-validation': 3.9.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
-      '@mdx-js/react': 3.1.1(@types/react@17.0.91)(react@17.0.2)
+      '@mdx-js/react': 3.1.1(@types/react@19.2.14)(react@17.0.2)
       clsx: 2.1.1
       infima: 0.2.0-alpha.45
       lodash: 4.17.23
@@ -11862,9 +11859,9 @@ snapshots:
       - uglify-js
       - webpack-cli
 
-  '@docusaurus/theme-search-algolia@3.9.2(@algolia/client-search@5.49.1)(@mdx-js/react@1.6.22(react@17.0.2))(@types/react@17.0.91)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.17.3)(typescript@4.9.5)':
+  '@docusaurus/theme-search-algolia@3.9.2(@algolia/client-search@5.49.1)(@mdx-js/react@1.6.22(react@17.0.2))(@types/react@19.2.14)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.17.3)(typescript@4.9.5)':
     dependencies:
-      '@docsearch/react': 4.6.0(@algolia/client-search@5.49.1)(@types/react@17.0.91)(algoliasearch@5.49.1)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.17.3)
+      '@docsearch/react': 4.6.0(@algolia/client-search@5.49.1)(@types/react@19.2.14)(algoliasearch@5.49.1)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.17.3)
       '@docusaurus/core': 3.9.2(@mdx-js/react@1.6.22(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
       '@docusaurus/logger': 3.9.2
       '@docusaurus/plugin-content-docs': 3.9.2(@mdx-js/react@1.6.22(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@4.9.5)
@@ -11920,7 +11917,7 @@ snapshots:
       react-dom: 17.0.2(react@17.0.2)
       react-helmet-async: '@slorber/react-helmet-async@1.3.0(react-dom@17.0.2(react@17.0.2))(react@17.0.2)'
       utility-types: 3.11.0
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
       webpack-merge: 5.10.0
     transitivePeerDependencies:
       - '@swc/core'
@@ -11983,7 +11980,7 @@ snapshots:
       tslib: 2.8.1
       url-loader: 4.1.1(file-loader@6.2.0(webpack@5.105.3))(webpack@5.105.3)
       utility-types: 3.11.0
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
@@ -12708,10 +12705,10 @@ snapshots:
     dependencies:
       react: 17.0.2
 
-  '@mdx-js/react@3.1.1(@types/react@17.0.91)(react@17.0.2)':
+  '@mdx-js/react@3.1.1(@types/react@19.2.14)(react@17.0.2)':
     dependencies:
       '@types/mdx': 2.0.13
-      '@types/react': 17.0.91
+      '@types/react': 19.2.14
       react: 17.0.2
 
   '@mdx-js/react@3.1.1(@types/react@19.2.14)(react@19.2.4)':
@@ -14341,7 +14338,7 @@ snapshots:
       '@babel/core': 7.29.0
       find-cache-dir: 4.0.0
       schema-utils: 4.3.3
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
 
   babel-plugin-dynamic-import-node@2.3.3:
     dependencies:
@@ -14872,7 +14869,7 @@ snapshots:
       normalize-path: 3.0.0
       schema-utils: 4.3.3
       serialize-javascript: 6.0.2
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
 
   core-js-compat@3.48.0:
     dependencies:
@@ -14950,7 +14947,7 @@ snapshots:
       postcss-value-parser: 4.2.0
       semver: 7.7.4
     optionalDependencies:
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
 
   css-loader@7.1.4(webpack@5.105.3):
     dependencies:
@@ -14973,7 +14970,7 @@ snapshots:
       postcss: 8.5.6
       schema-utils: 4.3.3
       serialize-javascript: 6.0.2
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
     optionalDependencies:
       clean-css: 5.3.3
 
@@ -15980,7 +15977,7 @@ snapshots:
     dependencies:
       loader-utils: 2.0.4
       schema-utils: 3.3.0
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
 
   filesize@8.0.7: {}
 
@@ -16597,7 +16594,7 @@ snapshots:
       pretty-error: 4.0.0
       tapable: 2.3.0
     optionalDependencies:
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
 
   htmlparser2@6.1.0:
     dependencies:
@@ -18015,7 +18012,7 @@ snapshots:
     dependencies:
       schema-utils: 4.3.3
       tapable: 2.3.0
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
 
   mini-html-webpack-plugin@3.1.3(webpack@5.105.3):
     dependencies:
@@ -18199,7 +18196,7 @@ snapshots:
     dependencies:
       loader-utils: 2.0.4
       schema-utils: 3.3.0
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
 
   object-assign@4.1.1: {}
 
@@ -18771,7 +18768,7 @@ snapshots:
       jiti: 1.21.7
       postcss: 8.5.6
       semver: 7.7.4
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
     transitivePeerDependencies:
       - typescript
 
@@ -19302,7 +19299,7 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.28.6
       react-loadable: '@docusaurus/react-loadable@6.0.0(react@17.0.2)'
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
 
   react-refresh@0.17.0: {}
 
@@ -20418,7 +20415,7 @@ snapshots:
       schema-utils: 4.3.3
       serialize-javascript: 6.0.2
       terser: 5.46.0
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
 
   terser@5.46.0:
     dependencies:
@@ -20821,7 +20818,7 @@ snapshots:
       loader-utils: 2.0.4
       mime-types: 2.1.35
       schema-utils: 3.3.0
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
     optionalDependencies:
       file-loader: 6.2.0(webpack@5.105.3)
 
@@ -21056,7 +21053,7 @@ snapshots:
       range-parser: 1.2.1
       schema-utils: 4.3.3
     optionalDependencies:
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
     transitivePeerDependencies:
       - tslib
 
@@ -21131,7 +21128,7 @@ snapshots:
       webpack-dev-middleware: 7.4.5(tslib@2.8.1)(webpack@5.105.3)
       ws: 8.19.0
     optionalDependencies:
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
     transitivePeerDependencies:
       - bufferutil
       - debug
@@ -21202,6 +21199,38 @@ snapshots:
 
   webpack-sources@3.3.4: {}
 
+  webpack@5.105.3:
+    dependencies:
+      '@types/eslint-scope': 3.7.7
+      '@types/estree': 1.0.8
+      '@types/json-schema': 7.0.15
+      '@webassemblyjs/ast': 1.14.1
+      '@webassemblyjs/wasm-edit': 1.14.1
+      '@webassemblyjs/wasm-parser': 1.14.1
+      acorn: 8.16.0
+      acorn-import-phases: 1.0.4(acorn@8.16.0)
+      browserslist: 4.28.1
+      chrome-trace-event: 1.0.4
+      enhanced-resolve: 5.19.0
+      es-module-lexer: 2.0.0
+      eslint-scope: 5.1.1
+      events: 3.3.0
+      glob-to-regexp: 0.4.1
+      graceful-fs: 4.2.11
+      json-parse-even-better-errors: 2.3.1
+      loader-runner: 4.3.1
+      mime-types: 2.1.35
+      neo-async: 2.6.2
+      schema-utils: 4.3.3
+      tapable: 2.3.0
+      terser-webpack-plugin: 5.3.16(webpack@5.105.3)
+      watchpack: 2.5.1
+      webpack-sources: 3.3.4
+    transitivePeerDependencies:
+      - '@swc/core'
+      - esbuild
+      - uglify-js
+
   webpack@5.105.3(webpack-cli@6.0.1):
     dependencies:
       '@types/eslint-scope': 3.7.7
@@ -21245,7 +21274,7 @@ snapshots:
       markdown-table: 2.0.0
       pretty-time: 1.1.0
       std-env: 3.10.0
-      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack: 5.105.3
       wrap-ansi: 7.0.0
 
   websocket-driver@0.7.4:

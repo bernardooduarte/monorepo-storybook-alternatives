@@ -32,7 +32,6 @@
     "@tsconfig/docusaurus": "^1.0.4",
     "@types/minimatch": "^6.0.0",
     "@types/node": "14.18.63",
-    "@types/react": "^17.0.14",
     "@types/react-helmet": "^6.1.2",
     "@types/react-router-dom": "^5.1.8",
     "i": "^0.3.7",
