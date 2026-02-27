@@ -20,5 +20,10 @@
     "turbo": "^2.0.0",
     "typescript": "^5.9.3"
   },
-  "packageManager": "pnpm@10.19.0"
+  "packageManager": "pnpm@10.19.0",
+  "pnpm": {
+    "overrides": {
+      "@types/node": "16.18.126"
+    }
+  }
 }

@@ -31,7 +31,7 @@
     "@docusaurus/theme-classic": "2.0.0",
     "@tsconfig/docusaurus": "^1.0.4",
     "@types/minimatch": "^6.0.0",
-    "@types/node": "^25.3.2",
+    "@types/node": "^16.18.126",
     "@types/react": "^17.0.14",
     "@types/react-helmet": "^6.1.2",
     "@types/react-router-dom": "^5.1.8",
